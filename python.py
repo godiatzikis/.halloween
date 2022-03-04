@@ -3,6 +3,7 @@
 # sensor and then turn on the fog, then make scary sounds, move some things and make
 # some lights turn on and off and or blink.
 # Also make sure that you run as SUDO
+# Where did I set that up before?
 
 import time
 import RPi.GPIO as GPIO
@@ -29,7 +30,7 @@ GPIO.LIGHTS = 15
 Current_State = 0
 Previous_State = 0
 
-print ('GPIO pins 7, 11, , &  have now been set')
+print ('GPIO pins 7, 11, 13, &  have now been set')
 
 # Here I set the PIR as input
 # Note here I set the pin as 0v pulled down.  Need to check if that's how it should be
